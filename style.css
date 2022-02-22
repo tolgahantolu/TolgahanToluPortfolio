@@ -89,3 +89,39 @@ body{
 	transform: translateY(-5px);
 }
 /* end of navigation */
+
+/* header */
+.header{
+	width: 100%;
+	height: calc(100vh - 10rem); /*10rem = nav height*/
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.header__img{
+	width: 42rem;
+	height: 42rem;
+	object-fit: cover;
+	border: 1.5rem solid #fafaf9;
+	border-radius: 50%;
+	box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.5);	
+}
+
+.header__welcome{
+	font-size: 1.8rem;
+	letter-spacing: 4px;
+}
+
+.header__title{
+	font-size: 8rem;
+	font-weight: 900;
+	padding: 1rem 0;
+}
+
+
+.header__based{
+	font-size: 5rem;
+	font-weight: 800;
+}
+/* end of header */

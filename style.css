@@ -27,6 +27,14 @@ body{
 .highlight{
 	color: var(--color-primary);
 }
+
+.section-padding{
+	padding: 0 10rem;
+}
+
+.section-margin-top{
+	margin-top: 12rem;
+}
 /* end of general styles */
 
 /* navigation */
@@ -36,7 +44,6 @@ body{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 10rem;
 }
 
 .nav__logo,
@@ -125,3 +132,37 @@ body{
 	font-weight: 800;
 }
 /* end of header */
+
+/* about */
+.about{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about__left{
+	width: 40%;
+}
+
+.about__title--main{
+	font-size: 6rem;
+	font-weight: 800;
+}
+
+.about__title--sub{
+	font-size: 3rem;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: var(--color-primary);
+	
+}
+
+.about__right{
+	width: 50%;
+}
+
+.about__description{
+	font-size: 2rem;
+	line-height: 1.7;
+}
+/* end of about */
